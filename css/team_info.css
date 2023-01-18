@@ -1,13 +1,3 @@
-div.background {
-  /*Team Logo. Currently Hidden behind the website*/
-  height:100vh;
-  position: absolute;
-  background-image:url(cis_logo_icon.png);
-  background-repeat:no-repeat;
-  background-attachment: fixed;
-  background-size:contain;
-  }
-}
 body {
   
 }

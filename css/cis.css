@@ -1,6 +1,32 @@
+body {
+	padding: 0;
+	margin-left: 0;
+	width: 100vw;
+	hight: 100vh;
+}
 
 .awardtxt {
 	padding: 1vw;
 	margin-left: 1vw;
 	display: block;
+}
+
+.year_entries {
+	display: block;
+	padding: 1vw;
+	margin-left: 1vw;
+}
+
+.year_entries > div {
+	padding: 1vw;
+	margin-left: 1vw;
+	border: solid 0.1vh;
+	border-color: #222222;
+	display: block;
+	background-color: #eeeeee;
+	width: 50%;
+}
+
+.template{
+	display: none;
 }

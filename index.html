@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Herobotix CIS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/cis.css">
+		<script>
+			function ready(f) {
+				if (document.readyState === "complete" || document.readyState === "interactive") setTimeout(f, 0);
+				else document.addEventListener("DOMContentLoaded", f);
+			}
+		</script>
+		
 	</head>
 	<body>
 		<div id="displayPage">
@@ -9,9 +18,11 @@
 		</div>
 		<div> <!--*Templates-->
 			<div class="homepage template">
-				HOLA.
+				HOLA. <a href="#year_entries">"Year Entries"</a>
 			</div>
 			<div class="year_entries template"> <!--Year Entries-->
+				
+				<a href="#">"Homepage"</a>
 				
 				<div> <h3>Year 1</h3>
 					<ul>
@@ -35,7 +46,11 @@
 					</div>
 				</div>
 			</div>
+			<div class="TESTPAGE template">
+				
+			</div>
 		</div>
+		<script type="text/javascript" language="javascript" src="js/scripts.js"></script>
 	</body>
 </html>
 
